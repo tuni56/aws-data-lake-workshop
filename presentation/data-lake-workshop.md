@@ -13,8 +13,8 @@ style: |
   .highlight { color: #FF9900; font-weight: bold; }
 ---
 
-# 🏗️ Data Lake en AWS
-## con S3, Glue y Athena
+# Data Lakes sin Freno
+## Domina S3, Glue y Athena como una/un Pro
 
 **Workshop Nivel 200**
 Consola de AWS · ~2 horas
@@ -235,4 +235,4 @@ Países: 🇦🇷 Argentina · 🇲🇽 México · 🇨🇴 Colombia · 🇨🇱
 
 **¿Preguntas?**
 
-*Workshop Data Lake en AWS — Nivel 200*
+*Data Lakes sin Freno — Nivel 200*
