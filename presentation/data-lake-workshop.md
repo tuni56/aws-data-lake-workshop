@@ -21,6 +21,11 @@ Consola de AWS · ~2 horas
 
 ---
 
+**Rocío Baigorria**
+Data Engineer · Co-Líder AWS Girls Argentina
+
+---
+
 # ¿Qué es un Data Lake?
 
 Un **repositorio centralizado** que permite almacenar datos estructurados y no estructurados a cualquier escala.
@@ -234,5 +239,8 @@ Países: 🇦🇷 Argentina · 🇲🇽 México · 🇨🇴 Colombia · 🇨🇱
 # ¡Gracias! 🎉
 
 **¿Preguntas?**
+
+**Rocío Baigorria**
+Data Engineer · Co-Líder AWS Girls Argentina
 
 *Data Lakes sin Freno — Nivel 200*
