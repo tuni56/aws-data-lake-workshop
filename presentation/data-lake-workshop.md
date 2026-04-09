@@ -219,7 +219,7 @@ Países: 🇦🇷 Argentina · 🇲🇽 México · 🇨🇴 Colombia · 🇨🇱
 # ¡Empecemos! 🚀
 
 **Repositorio del workshop:**
-`github.com/TU-USUARIO/aws-data-lake-workshop`
+`github.com/tuni56/aws-data-lake-workshop`
 
 **Módulo 01:** Setup inicial e IAM →
 
