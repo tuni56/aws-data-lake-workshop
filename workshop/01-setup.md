@@ -15,9 +15,12 @@
 ## Paso 1: Seleccionar región
 
 1. Inicia sesión en la [consola de AWS](https://console.aws.amazon.com)
-2. En la esquina superior derecha, selecciona la región **us-east-1 (N. Virginia)**
+2. En la esquina superior derecha, selecciona tu región. Podés usar cualquiera de estas:
+   - **us-east-1 (N. Virginia)**
+   - **us-east-2 (Ohio)**
+   - **us-west-2 (Oregon)**
 
-> 💡 Usamos us-east-1 porque tiene disponibilidad completa de todos los servicios del workshop y los menores costos.
+> 💡 Lo importante es usar **la misma región en todos los pasos** del workshop. S3, Glue y Athena tienen que estar en la misma región para comunicarse entre sí.
 
 ---
 
