@@ -181,13 +181,14 @@ Países: 🇦🇷 Argentina · 🇲🇽 México · 🇨🇴 Colombia · 🇨🇱
 
 | # | Módulo | Tiempo |
 |---|--------|--------|
-| 01 | Setup: IAM y región | 15 min |
-| 02 | S3: estructura del Data Lake | 20 min |
-| 03 | Glue: Crawler y ETL Job | 30 min |
-| 04 | Athena: queries SQL | 30 min |
-| 05 | Cleanup de recursos | 10 min |
+| 01 | Setup: IAM y región | 10 min |
+| 02 | S3: estructura del Data Lake | 10 min |
+| 03 | Glue: Crawler y ETL Job *(demo)* | 20 min |
+| 04 | Athena: queries SQL | 15 min |
+| 05 | Cleanup de recursos | 5 min |
+| 🏠 | Particionado en S3 *(bonus, en casa)* | 25 min |
 
-**Total: ~2 horas**
+**Total: ~1 hora** *(+ bonus opcional)*
 
 ---
 

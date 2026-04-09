@@ -46,13 +46,14 @@ Datos CSV (ventas)
 
 | # | Módulo | Tiempo |
 |---|--------|--------|
-| [01](workshop/01-setup.md) | Setup inicial e IAM | 15 min |
-| [02](workshop/02-s3-data-lake.md) | S3: estructura del Data Lake | 20 min |
-| [03](workshop/03-glue-catalog.md) | Glue: Crawler y Data Catalog | 30 min |
-| [04](workshop/04-athena-queries.md) | Athena: consultas SQL | 30 min |
-| [05](workshop/05-cleanup.md) | Cleanup de recursos | 10 min |
+| [01](workshop/01-setup.md) | Setup inicial e IAM | 10 min |
+| [02](workshop/02-s3-data-lake.md) | S3: estructura del Data Lake | 10 min |
+| [03](workshop/03-glue-catalog.md) | Glue: Crawler y Data Catalog | 20 min |
+| [04](workshop/04-athena-queries.md) | Athena: consultas SQL | 15 min |
+| [05](workshop/05-cleanup.md) | Cleanup de recursos | 5 min |
+| [🏠 Bonus](workshop/bonus-particionado.md) | Particionado en S3 *(para hacer en casa)* | 25 min |
 
-**Duración total estimada: ~2 horas**
+**Duración total estimada: ~1 hora** *(+ 25 min bonus opcional)*
 
 ---
 
