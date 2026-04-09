@@ -8,26 +8,29 @@ Aprende a construir un Data Lake serverless en AWS usando S3 como almacenamiento
 
 ## 🎯 ¿Qué vas a construir?
 
+```mermaid
+flowchart TD
+    subgraph Storage["🗄️ Amazon S3 — Data Lake Storage"]
+        RAW["raw/sales/\nsales.csv"]
+        CURATED["curated/sales/\n*.parquet"]
+        RESULTS["athena-results/"]
+    end
+
+    subgraph Catalog["🗂️ AWS Glue"]
+        CRAWLER["Crawler\nDescubre esquema"]
+        DC["Data Catalog\nsales_db"]
+        JOB["ETL Job\nCSV → Parquet"]
+    end
+
+    CSV["📄 sales.csv"] -->|Upload| RAW
+    RAW --> CRAWLER --> DC
+    RAW --> JOB --> CURATED --> DC
+    DC --> ATHENA["💬 Amazon Athena\nSQL serverless"]
+    CURATED --> ATHENA
+    ATHENA --> RESULTS
 ```
-Datos CSV (ventas)
-       │
-       ▼
-  Amazon S3          ← Almacenamiento del Data Lake
-  ├── raw/           ← Datos originales
-  └── curated/       ← Datos procesados (Parquet)
-       │
-       ▼
-  AWS Glue           ← Catálogo + ETL
-  ├── Crawler        ← Descubre el esquema automáticamente
-  ├── Data Catalog   ← Metadatos centralizados
-  └── ETL Job        ← Convierte CSV → Parquet
-       │
-       ▼
-  Amazon Athena      ← Consultas SQL serverless
-       │
-       ▼
-  Resultados en S3
-```
+
+> 📐 [Ver diagrama completo de arquitectura](assets/architecture.md)
 
 ---
 
